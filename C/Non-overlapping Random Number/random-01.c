@@ -6,12 +6,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void){
-  const int array_Lenght = 10;
-  int array[array_Length];  
-  srand((unsigned)time(NULL));
-  for(int i = 0; i < array_Length; i++){
-    array_Lenght[i] = rand() % 15;
-    printf("\n%d", array[i]);
-  }
+int main(void) {
+	const int array_Length = 10;
+	int array[array_Length];
+	srand((unsigned)time(NULL));
+	for (int i = 0; i < array_Length; i++) {
+		array[i] = rand() % 15;
+		printf("\n%d", array[i]);
+	}
 }
